@@ -4,7 +4,8 @@ function Chat() {
   return (
     <div className="App">
       <aside className="sideMenu">
-        <h1>Aside</h1>
+        <div className="side-menu-button">
+            <span>+</span>Start Chat</div>
       </aside>
       <section className="chatBox"></section>
     </div>
