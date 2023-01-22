@@ -3,9 +3,10 @@ import "./App.css";
 function Chat() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>HI</p>
-      </header>
+      <aside className="sideMenu">
+        <h1>Aside</h1>
+      </aside>
+      <section className="chatBox"></section>
     </div>
   );
 }
